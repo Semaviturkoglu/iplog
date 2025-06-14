@@ -13,4 +13,5 @@ def index():
     return "<h1>Hoş geldin!</h1><p>IP adresiniz kaydedildi.</p>"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0", port=10000)
+
